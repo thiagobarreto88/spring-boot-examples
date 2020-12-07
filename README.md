@@ -11,8 +11,9 @@ Spring boot sample applications
   Request example: http://localhost:8080/2221006244730608
   
   Application log output:
+  
     ```
-    2020-12-07 21:44:00.805 DEBUG 7840 --- [http-nio-8080-exec-6] c.e.restservice.CustomerController       : Credit card number: ************0608
+    2020-12-07 21:44:00.805 DEBUG 7840 --- [http-nio-8080-exec-6] c.e.restservice.CustomerController       : Credit card number: ************<b>0608</b>
     ```
   
   Access log output:
