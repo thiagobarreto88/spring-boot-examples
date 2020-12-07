@@ -11,11 +11,11 @@ Spring boot sample applications
   Request example: http://localhost:8080/2221006244730608
   
   Application log output:
-    2020-12-07 21:44:00.805 DEBUG 7840 --- [http-nio-8080-exec-6] c.e.restservice.CustomerController       : Credit card number: ************0608
+    ```2020-12-07 21:44:00.805 DEBUG 7840 --- [http-nio-8080-exec-6] c.e.restservice.CustomerController       : Credit card number: ************0608```
   
   Access log output:
    
-   [07/Dec/2020:21:44:00 -0200] http-nio-8080-exec-6 0:0:0:0:0:0:0:1 - - GET /customer/************0608 HTTP/1.1 200 56 [7 ms] - - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36
+   ```[07/Dec/2020:21:44:00 -0200] http-nio-8080-exec-6 0:0:0:0:0:0:0:1 - - GET /customer/************0608 HTTP/1.1 200 56 [7 ms] - - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36```
    
 
   For the application log file a custom pattern layout is created (Class PatternMaskingLayout) to override the logback default logging to replace the first 12 digits with '\*'\  using a regular expression. The class PatternMaskingLayout is set in the logback-spring.xml file.
