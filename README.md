@@ -6,7 +6,7 @@ Spring boot sample applications
 
  Spring Boot service exemplifying how to mask sensitive data in application logs and tomcat access log by creating custom logback pattern layouts and customizing tomcat embedded container.
   
-  The requirement is to mask the first 12 characters in the credit card number receveid in the service URL in the application and access log files.
+  The requirement is to mask the first 12 characters in the credit card number recevied in the service URL in the application and access log files.
   
   Request example: http://localhost:8080/2221006244730608
   
