@@ -28,7 +28,7 @@ Spring boot sample applications
  1. Clone the repository
  1. Build the project using the maven command: mvn clean install
  1. Run the jar using the command: java -jar log-masking-java-rest-service-0.0.1-SNAPSHOT.jar
- 1. Access the URL 'http://localhost:8080/customer/<Some credit card number>'
+ 1. Access the URL ```http://localhost:8080/customer/<Some credit card number>```
  1. Check the console log.
  
 ### Built With
