@@ -2,7 +2,7 @@
 
 Spring boot sample applications
 
-log-masking-java-rest-service: Spring Boot service exemplifying how to mask sensitive data in application logs and tomcat access log by creating custom logback pattern layouts
+##log-masking-java-rest-service: Spring Boot service exemplifying how to mask sensitive data in application logs and tomcat access log by creating custom logback pattern layouts
   
   The requirement is to mask the first 12 characters in the credit card number receveid in the service URL in the application and access log files.
   
