@@ -23,7 +23,14 @@ Spring boot sample applications
    
    ```[07/Dec/2020:21:44:00 -0200] http-nio-8080-exec-6 0:0:0:0:0:0:0:1 - - GET /customer/************0608 HTTP/1.1 200 56 [7 ms] - - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36```
    
+### Running the service
 
+ 1. Clone the repository
+ 1. Build the project using the maven command: mvn clean install
+ 1. Run the jar using the command: java -jar log-masking-java-rest-service-0.0.1-SNAPSHOT.jar
+ 1. Access the URL http://localhost:8080/customer/<Some credit card number>
+ 1. Check the console log.
+ 
 ### Built With
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [Spring Boot](https://spring.io/projects/spring-boot)
