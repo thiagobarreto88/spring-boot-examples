@@ -12,10 +12,6 @@ import org.springframework.boot.web.server.WebServerFactoryCustomizer;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
-/**
- * see https://www.baeldung.com/embeddedservletcontainercustomizer-configurableembeddedservletcontainer-spring-boot
- * 
-*/
 @Component
 public class CustomizedEmbeddedTomcatContainer implements WebServerFactoryCustomizer<TomcatServletWebServerFactory> {
 	
