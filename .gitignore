@@ -9,3 +9,4 @@
 /logback-masking-java-rest-service/.classpath
 /logback-masking-java-rest-service/.factorypath
 target
+/logback-masking-java-rest-service/bin
