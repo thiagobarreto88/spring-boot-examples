@@ -2,7 +2,7 @@
 
 Spring boot sample applications
 
-## log-masking-java-rest-service
+## logback-masking-java-rest-service
 
  Spring Boot service exemplifying how to mask sensitive data in application logs and tomcat access log by creating custom logback pattern layouts and customizing tomcat embedded container.
   
