@@ -10,3 +10,12 @@
 /logback-masking-java-rest-service/.factorypath
 target
 /logback-masking-java-rest-service/bin
+/log4j-masking-java-rest-service/.project
+/log4j-masking-java-rest-service/.settings
+/log4j-masking-java-rest-service/target
+/log4j-masking-java-rest-service/.classpath
+/log4j-masking-java-rest-service/.factorypath
+.classpath
+.factorypath
+.project
+.settings
